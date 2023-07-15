@@ -1,0 +1,24 @@
+#tableForm{
+    margin: auto;
+
+    line-height: 50px;
+}
+
+.tdText{
+    width: 300px;
+
+    text-align: right;
+}
+.tdInput{
+    width: 250px;
+}
+
+.inputClass{
+    width: 240px;
+    height: 32px;
+    border: 1px solid #7f9db9;
+
+    line-height: 32px;
+
+    padding-left: 10px;
+}

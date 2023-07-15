@@ -1,0 +1,25 @@
+body{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    color: #404040;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-color: #15B69A;
+    margin: 0;
+}
+a{
+    /*text-transform: none;*/
+    text-decoration: none;
+    border-width: 0;
+}
+a:hover{
+    text-decoration: underline;
+    border-width: 0;
+}
+span{
+    margin: 0;
+}

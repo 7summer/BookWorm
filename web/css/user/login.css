@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    /* border: 2px solid red; */
+}
+
+.bg{
+    width: 400px;
+    height: 270px;
+    /* border: 2px solid green; */
+
+    float: left;
+
+    /*background-image: url('../../images/loninBg.jpg');*/
+    /*background-size: 400px 270px;*/
+
+    margin: 20px;
+    margin-top: 80px;
+}
+.bg>img{
+    width: 400px;
+    height: 270px;
+}
+
+
+.loginArea{
+    width: 500px;
+    height: 500px;
+
+    border: 2px solid gray;
+
+    float: right;
+
+    margin: 20px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.title{
+    font-size: 30px;
+    color: blue;
+
+    margin-right: 50px;
+}
+
+
+#tableForm{
+    margin: 20px;
+
+    line-height: 50px;
+}
+#imgVerifyCode{
+    border: 1px solid #e2e2e2;
+    width: 100px;
+}
+#submitbuttion{
+    width: 50%;
+    height: 32px;
+
+    color: white;
+    background-color: #e60000;
+
+    border: 0;
+}
+#submitbuttion:hover{
+    background-color: #f40000;
+}
+
+.tdText{
+    /* width: 300px; */
+    width: 150px;
+    text-align: right;
+}
+.tdInput{
+    /* width: 250px; */
+    width: 400px;
+}
+.tdError{
+    width: 300px;
+}
+.inputClass{
+    width: 240px;
+    height: 32px;
+    border: 1px solid #7f9db9;
+
+    line-height: 32px;
+
+    padding-left: 10px;
+}
+.errorClass{
+    color: #f40000;
+    background-image: url("/BookWorm/images/error.png");
+    background-repeat: no-repeat;
+    background-color: #fef2f2;
+    border: 1px solid #ffb8b8;
+
+    font-size: 10pt;
+
+    padding: 8px 8px 8px 35px;
+
+    height: 32px;
+}
+#verifycode{
+    width: 120px;
+}

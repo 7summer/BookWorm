@@ -1,0 +1,82 @@
+body {
+    font-size: 10pt;
+    color: #404040;
+    font-family: Arial;
+}
+
+.div0 {
+    margin: 20px 80px;
+    font-size: 15px;
+}
+.div1 {
+    width: 820px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    border: 1px solid #D2D3D5;
+    background-color: #F4FEFF;
+}
+
+table {
+    font-size: 10pt;
+    color: #404040;
+    font-family: Arial;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    line-height: 50px;
+}
+#divVerifyCode{
+    text-align: center;
+    border: 1px solid #e2e2e2;
+}
+#imgVerifyCode{
+    width: 100px;
+}
+#submitbuttion{
+    width: 100%;
+    height: 32px;
+
+    color: white;
+    background-color: #e60000;
+
+    border: 0;
+}
+#submitbuttion:hover{
+    background-color: #f40000;
+}
+
+.tdText{
+    width: 300px;
+
+    text-align: right;
+}
+.tdInput{
+    width: 250px;
+}
+.tdError{
+    width: 300px;
+}
+.inputClass{
+    width: 240px;
+    height: 32px;
+    border: 1px solid #7f9db9;
+
+    line-height: 32px;
+
+    padding-left: 10px;
+}
+.errorClass{
+    color: #f40000;
+    background-image: url("/BookWorm/images/error.png");
+    background-repeat: no-repeat;
+    background-color: #fef2f2;
+    border: 1px solid #ffb8b8;
+
+    font-size: 10pt;
+
+    padding: 8px 8px 8px 35px;
+
+    height: 32px;
+}
