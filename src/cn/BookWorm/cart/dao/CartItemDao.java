@@ -85,7 +85,7 @@ public class CartItemDao {
      * @return
      */
     public List<CartItem> findByUserId(String userId) throws SQLException {
-        String sql = "select * from cartitem c,book b where c.bookId=b.bookId and userId=?";
+        String sql = "select * from cartitem c,book b where c.bookId = b.bookId and userId=?";
         List<Map<String, Object>> mapList = qr.query(sql, new MapListHandler(), userId);
 
         return toCartItemList(mapList);

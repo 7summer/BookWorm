@@ -11,9 +11,9 @@ public class Email implements Runnable{
     MimeMessage message = null; //邮件对象
     Transport transport = null; //邮件传输对象
 
-    String from = "clear_poem@163.com"; //发件人邮箱地址
-    String username = "clear_poem@163.com"; //发件人称号，同邮箱地址
-    String password = "VVWFOCOCVIQGORCE"; //发件人邮箱客户端授权码
+    String from = ""; //发件人邮箱地址
+    String username = ""; //发件人称号，同邮箱地址
+    String password = ""; //发件人邮箱客户端授权码
 
     String to; //收件人邮箱地址
     String subject; //邮件主题
@@ -29,7 +29,7 @@ public class Email implements Runnable{
     public void initProperties()
     {
         properties = new Properties();
-        properties.setProperty("mail.stmp.host", "smtp.163.com");
+        properties.setProperty("mail.stmp.host", ""); //SMTP服务器
         properties.setProperty("mail.stmp.auth", "true");
     }
 

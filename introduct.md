@@ -64,8 +64,14 @@ jdk11、mysql8.0、tomcat8.5.88<br/>
  |    jsp    | 用户界面的jsp |
 | index.jsp |   用户主页   |
 
-
-
-
+## 敏感信息
+- 需要修改/user/domain/Email.java文件
+  - 变量from
+  - 变量username
+  - 变量password
+  - 方法initProperties
+    - properties.setProperty("mail.stmp.host", ""); //SMTP服务器
+- c3p0-config.xml文件（需要填写数据库用户名和密码、jdbc地址）
+  
 
 
